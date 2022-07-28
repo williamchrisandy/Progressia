@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21F79" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Activity" representedClassName="Activity" syncable="YES">
+        <attribute name="date" attributeType="Date" defaultDateTimeInterval="680372340" usesScalarValueType="YES"/>
+        <attribute name="id" attributeType="Integer 64" defaultValueString="-1" usesScalarValueType="YES"/>
+        <attribute name="mood" attributeType="Double" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="point" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="task" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Task" inverseName="activities" inverseEntity="Task"/>
+        <relationship name="topic" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Topic" inverseName="activities" inverseEntity="Topic"/>
+    </entity>
+    <entity name="Task" representedClassName="Task" syncable="YES">
+        <attribute name="completion" attributeType="Integer 16" defaultValueString="2" usesScalarValueType="YES"/>
+        <attribute name="deadline" attributeType="Date" defaultDateTimeInterval="680372100" usesScalarValueType="YES"/>
+        <attribute name="difficulty" attributeType="Integer 16" defaultValueString="2" usesScalarValueType="YES"/>
+        <attribute name="explanation" attributeType="String" defaultValueString=""/>
+        <attribute name="id" attributeType="Integer 64" defaultValueString="-1" usesScalarValueType="YES"/>
+        <attribute name="title" attributeType="String" defaultValueString=""/>
+        <relationship name="activities" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Activity" inverseName="task" inverseEntity="Activity"/>
+        <relationship name="topic" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Topic" inverseName="tasks" inverseEntity="Topic"/>
+    </entity>
+    <entity name="Topic" representedClassName="Topic" syncable="YES">
+        <attribute name="deadline" attributeType="Date" defaultDateTimeInterval="680372220" usesScalarValueType="YES"/>
+        <attribute name="explanation" attributeType="String" defaultValueString=""/>
+        <attribute name="id" attributeType="Integer 64" defaultValueString="-1" usesScalarValueType="YES"/>
+        <attribute name="title" attributeType="String" defaultValueString=""/>
+        <relationship name="activities" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Activity" inverseName="topic" inverseEntity="Activity"/>
+        <relationship name="tasks" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Task" inverseName="topic" inverseEntity="Task"/>
+    </entity>
+    <elements>
+        <element name="Activity" positionX="-36" positionY="9" width="128" height="119"/>
+        <element name="Task" positionX="-54" positionY="0" width="128" height="149"/>
+        <element name="Topic" positionX="-63" positionY="-9" width="128" height="119"/>
+    </elements>
+</model>

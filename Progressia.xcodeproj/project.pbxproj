@@ -7,22 +7,92 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B4CF5582891F5B7001D937C /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4CF5462891F5B7001D937C /* Persistence.swift */; };
+		3B4CF5622891F5B7001D937C /* Progressia.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3B4CF5532891F5B7001D937C /* Progressia.xcdatamodeld */; };
+		3B4CF5632891F5B7001D937C /* DatabaseHelper+Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4CF5552891F5B7001D937C /* DatabaseHelper+Constants.swift */; };
+		3B4CF5642891F5B7001D937C /* DatabaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4CF5562891F5B7001D937C /* DatabaseHelper.swift */; };
+		3B53FE4A28920D4C0058838F /* HappyImageClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3B53FE4928920D4C0058838F /* HappyImageClassifier.mlmodel */; };
+		3B53FE4F28930D830058838F /* ChangeCompletionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B53FE4E28930D830058838F /* ChangeCompletionViewModel.swift */; };
+		3B53FE5128930D910058838F /* ChangeCompletionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B53FE5028930D910058838F /* ChangeCompletionView.swift */; };
+		3B53FE5E28934E480058838F /* DatabaseHelperActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B53FE5328934E480058838F /* DatabaseHelperActivity.swift */; };
+		3B53FE5F28934E480058838F /* Activity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B53FE5428934E480058838F /* Activity+CoreDataClass.swift */; };
+		3B53FE6028934E480058838F /* Activity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B53FE5528934E480058838F /* Activity+CoreDataProperties.swift */; };
+		3B53FE6128934E480058838F /* DatabaseHelperTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B53FE5728934E480058838F /* DatabaseHelperTask.swift */; };
+		3B53FE6228934E480058838F /* Task+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B53FE5828934E480058838F /* Task+CoreDataProperties.swift */; };
+		3B53FE6328934E480058838F /* Task+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B53FE5928934E480058838F /* Task+CoreDataClass.swift */; };
+		3B53FE6428934E480058838F /* Topic+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B53FE5B28934E480058838F /* Topic+CoreDataClass.swift */; };
+		3B53FE6528934E480058838F /* DatabaseHelperTopic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B53FE5C28934E480058838F /* DatabaseHelperTopic.swift */; };
+		3B53FE6628934E480058838F /* Topic+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B53FE5D28934E480058838F /* Topic+CoreDataProperties.swift */; };
+		3B7276902890FAB30046E2ED /* ImagePredictor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B72768F2890FAB30046E2ED /* ImagePredictor.swift */; };
+		3B7276922890FC4A0046E2ED /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7276912890FC4A0046E2ED /* CGImagePropertyOrientation+UIImageOrientation.swift */; };
+		3BAF3B66288F9253006DB6F7 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAF3B65288F9253006DB6F7 /* Card.swift */; };
+		3BAF3B6B288FA515006DB6F7 /* Footer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAF3B6A288FA515006DB6F7 /* Footer.swift */; };
+		3BC1763D2890E9DB003C0453 /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC1763C2890E9DB003C0453 /* ImagePickerView.swift */; };
+		3BC176402890EF03003C0453 /* ImagePickerCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC1763F2890EF03003C0453 /* ImagePickerCoordinator.swift */; };
 		3BC9D5FC288A388F0059CB6A /* ProgressiaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC9D5FB288A388F0059CB6A /* ProgressiaApp.swift */; };
 		3BC9D5FE288A388F0059CB6A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC9D5FD288A388F0059CB6A /* ContentView.swift */; };
 		3BC9D600288A38900059CB6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BC9D5FF288A38900059CB6A /* Assets.xcassets */; };
 		3BC9D603288A38900059CB6A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BC9D602288A38900059CB6A /* Preview Assets.xcassets */; };
-		3BC9D605288A38900059CB6A /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC9D604288A38900059CB6A /* Persistence.swift */; };
-		3BC9D608288A38900059CB6A /* Progressia.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3BC9D606288A38900059CB6A /* Progressia.xcdatamodeld */; };
+		3BC9D632288D62550059CB6A /* TaskDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC9D631288D62550059CB6A /* TaskDetailViewModel.swift */; };
+		3BC9D634288D62B60059CB6A /* TaskDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC9D633288D62B60059CB6A /* TaskDetailView.swift */; };
+		3BC9D637288D637D0059CB6A /* Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC9D636288D637D0059CB6A /* Formatter.swift */; };
+		3BC9D639288DA3070059CB6A /* HistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC9D638288DA3070059CB6A /* HistoryViewModel.swift */; };
+		3BC9D63B288DA3160059CB6A /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC9D63A288DA3160059CB6A /* HistoryView.swift */; };
+		3BC9D63D288DA3230059CB6A /* TaskListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC9D63C288DA3230059CB6A /* TaskListViewModel.swift */; };
+		3BC9D63F288DA3320059CB6A /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC9D63E288DA3320059CB6A /* TaskListView.swift */; };
+		3BC9D641288DA3560059CB6A /* TopicListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC9D640288DA3560059CB6A /* TopicListViewModel.swift */; };
+		3BC9D643288DA3610059CB6A /* TopicListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC9D642288DA3610059CB6A /* TopicListView.swift */; };
+		3BCC6F15288F475F0009A2A9 /* View+Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCC6F14288F475F0009A2A9 /* View+Formatter.swift */; };
+		3BCC6F17288F51EA0009A2A9 /* BodyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCC6F16288F51EA0009A2A9 /* BodyTextField.swift */; };
+		3BCC6F19288F52320009A2A9 /* TitleTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCC6F18288F52320009A2A9 /* TitleTextField.swift */; };
+		3BCC6F1B288F52700009A2A9 /* BodyTextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCC6F1A288F52700009A2A9 /* BodyTextEditor.swift */; };
+		3BCC6F1D288F5DB00009A2A9 /* DeadlineDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCC6F1C288F5DB00009A2A9 /* DeadlineDatePicker.swift */; };
+		3BCC6F1F288F6B210009A2A9 /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCC6F1E288F6B210009A2A9 /* PickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B4CF5462891F5B7001D937C /* Persistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		3B4CF5542891F5B7001D937C /* Progressia.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Progressia.xcdatamodel; sourceTree = "<group>"; };
+		3B4CF5552891F5B7001D937C /* DatabaseHelper+Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DatabaseHelper+Constants.swift"; sourceTree = "<group>"; };
+		3B4CF5562891F5B7001D937C /* DatabaseHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseHelper.swift; sourceTree = "<group>"; };
+		3B53FE4928920D4C0058838F /* HappyImageClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = HappyImageClassifier.mlmodel; sourceTree = "<group>"; };
+		3B53FE4E28930D830058838F /* ChangeCompletionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeCompletionViewModel.swift; sourceTree = "<group>"; };
+		3B53FE5028930D910058838F /* ChangeCompletionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeCompletionView.swift; sourceTree = "<group>"; };
+		3B53FE5328934E480058838F /* DatabaseHelperActivity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseHelperActivity.swift; sourceTree = "<group>"; };
+		3B53FE5428934E480058838F /* Activity+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Activity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3B53FE5528934E480058838F /* Activity+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Activity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3B53FE5728934E480058838F /* DatabaseHelperTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseHelperTask.swift; sourceTree = "<group>"; };
+		3B53FE5828934E480058838F /* Task+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Task+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3B53FE5928934E480058838F /* Task+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Task+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3B53FE5B28934E480058838F /* Topic+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Topic+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3B53FE5C28934E480058838F /* DatabaseHelperTopic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseHelperTopic.swift; sourceTree = "<group>"; };
+		3B53FE5D28934E480058838F /* Topic+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Topic+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3B72768F2890FAB30046E2ED /* ImagePredictor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePredictor.swift; sourceTree = "<group>"; };
+		3B7276912890FC4A0046E2ED /* CGImagePropertyOrientation+UIImageOrientation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGImagePropertyOrientation+UIImageOrientation.swift"; sourceTree = "<group>"; };
+		3BAF3B65288F9253006DB6F7 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		3BAF3B6A288FA515006DB6F7 /* Footer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Footer.swift; sourceTree = "<group>"; };
+		3BC1763C2890E9DB003C0453 /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
+		3BC1763F2890EF03003C0453 /* ImagePickerCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerCoordinator.swift; sourceTree = "<group>"; };
 		3BC9D5F8288A388F0059CB6A /* Progressia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Progressia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BC9D5FB288A388F0059CB6A /* ProgressiaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressiaApp.swift; sourceTree = "<group>"; };
 		3BC9D5FD288A388F0059CB6A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3BC9D5FF288A38900059CB6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BC9D602288A38900059CB6A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		3BC9D604288A38900059CB6A /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		3BC9D607288A38900059CB6A /* Progressia.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Progressia.xcdatamodel; sourceTree = "<group>"; };
+		3BC9D631288D62550059CB6A /* TaskDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailViewModel.swift; sourceTree = "<group>"; };
+		3BC9D633288D62B60059CB6A /* TaskDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailView.swift; sourceTree = "<group>"; };
+		3BC9D636288D637D0059CB6A /* Formatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formatter.swift; sourceTree = "<group>"; };
+		3BC9D638288DA3070059CB6A /* HistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewModel.swift; sourceTree = "<group>"; };
+		3BC9D63A288DA3160059CB6A /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		3BC9D63C288DA3230059CB6A /* TaskListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListViewModel.swift; sourceTree = "<group>"; };
+		3BC9D63E288DA3320059CB6A /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
+		3BC9D640288DA3560059CB6A /* TopicListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicListViewModel.swift; sourceTree = "<group>"; };
+		3BC9D642288DA3610059CB6A /* TopicListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicListView.swift; sourceTree = "<group>"; };
+		3BCC6F14288F475F0009A2A9 /* View+Formatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Formatter.swift"; sourceTree = "<group>"; };
+		3BCC6F16288F51EA0009A2A9 /* BodyTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyTextField.swift; sourceTree = "<group>"; };
+		3BCC6F18288F52320009A2A9 /* TitleTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTextField.swift; sourceTree = "<group>"; };
+		3BCC6F1A288F52700009A2A9 /* BodyTextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyTextEditor.swift; sourceTree = "<group>"; };
+		3BCC6F1C288F5DB00009A2A9 /* DeadlineDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeadlineDatePicker.swift; sourceTree = "<group>"; };
+		3BCC6F1E288F6B210009A2A9 /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +106,93 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B4CF5432891F5B7001D937C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3B53FE4928920D4C0058838F /* HappyImageClassifier.mlmodel */,
+				3B4CF5442891F5B7001D937C /* CoreData */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3B4CF5442891F5B7001D937C /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				3B4CF5532891F5B7001D937C /* Progressia.xcdatamodeld */,
+				3B4CF5462891F5B7001D937C /* Persistence.swift */,
+				3B4CF5552891F5B7001D937C /* DatabaseHelper+Constants.swift */,
+				3B4CF5562891F5B7001D937C /* DatabaseHelper.swift */,
+				3B53FE5A28934E480058838F /* Topic */,
+				3B53FE5628934E480058838F /* Task */,
+				3B53FE5228934E480058838F /* Activity */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		3B53FE4B28930C670058838F /* Change Completion */ = {
+			isa = PBXGroup;
+			children = (
+				3B53FE4D28930C8D0058838F /* View Model */,
+				3B53FE4C28930C8A0058838F /* View */,
+			);
+			path = "Change Completion";
+			sourceTree = "<group>";
+		};
+		3B53FE4C28930C8A0058838F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3B53FE5028930D910058838F /* ChangeCompletionView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3B53FE4D28930C8D0058838F /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				3B53FE4E28930D830058838F /* ChangeCompletionViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		3B53FE5228934E480058838F /* Activity */ = {
+			isa = PBXGroup;
+			children = (
+				3B53FE5328934E480058838F /* DatabaseHelperActivity.swift */,
+				3B53FE5428934E480058838F /* Activity+CoreDataClass.swift */,
+				3B53FE5528934E480058838F /* Activity+CoreDataProperties.swift */,
+			);
+			path = Activity;
+			sourceTree = "<group>";
+		};
+		3B53FE5628934E480058838F /* Task */ = {
+			isa = PBXGroup;
+			children = (
+				3B53FE5728934E480058838F /* DatabaseHelperTask.swift */,
+				3B53FE5928934E480058838F /* Task+CoreDataClass.swift */,
+				3B53FE5828934E480058838F /* Task+CoreDataProperties.swift */,
+			);
+			path = Task;
+			sourceTree = "<group>";
+		};
+		3B53FE5A28934E480058838F /* Topic */ = {
+			isa = PBXGroup;
+			children = (
+				3B53FE5C28934E480058838F /* DatabaseHelperTopic.swift */,
+				3B53FE5B28934E480058838F /* Topic+CoreDataClass.swift */,
+				3B53FE5D28934E480058838F /* Topic+CoreDataProperties.swift */,
+			);
+			path = Topic;
+			sourceTree = "<group>";
+		};
+		3BC1763E2890EECC003C0453 /* ImagePickerView */ = {
+			isa = PBXGroup;
+			children = (
+				3BC1763C2890E9DB003C0453 /* ImagePickerView.swift */,
+				3BC1763F2890EF03003C0453 /* ImagePickerCoordinator.swift */,
+			);
+			path = ImagePickerView;
+			sourceTree = "<group>";
+		};
 		3BC9D5EF288A388F0059CB6A = {
 			isa = PBXGroup;
 			children = (
@@ -57,9 +214,12 @@
 			children = (
 				3BC9D5FB288A388F0059CB6A /* ProgressiaApp.swift */,
 				3BC9D5FD288A388F0059CB6A /* ContentView.swift */,
+				3B4CF5432891F5B7001D937C /* Models */,
+				3BC9D630288BE1AD0059CB6A /* Helper */,
+				3BC9D635288D62C50059CB6A /* Components */,
+				3BCC6F13288F47180009A2A9 /* Extensions */,
+				3BC9D611288BC6DA0059CB6A /* Pages */,
 				3BC9D5FF288A38900059CB6A /* Assets.xcassets */,
-				3BC9D604288A38900059CB6A /* Persistence.swift */,
-				3BC9D606288A38900059CB6A /* Progressia.xcdatamodeld */,
 				3BC9D601288A38900059CB6A /* Preview Content */,
 			);
 			path = Progressia;
@@ -71,6 +231,151 @@
 				3BC9D602288A38900059CB6A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3BC9D611288BC6DA0059CB6A /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				3BC9D612288BC6FE0059CB6A /* Topic List */,
+				3BC9D613288BC7060059CB6A /* Task List */,
+				3BC9D61B288BC8A40059CB6A /* Task Detail */,
+				3B53FE4B28930C670058838F /* Change Completion */,
+				3BC9D614288BC7170059CB6A /* History */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		3BC9D612288BC6FE0059CB6A /* Topic List */ = {
+			isa = PBXGroup;
+			children = (
+				3BC9D61A288BC7650059CB6A /* View Model */,
+				3BC9D619288BC75D0059CB6A /* View */,
+			);
+			path = "Topic List";
+			sourceTree = "<group>";
+		};
+		3BC9D613288BC7060059CB6A /* Task List */ = {
+			isa = PBXGroup;
+			children = (
+				3BC9D618288BC7570059CB6A /* View Model */,
+				3BC9D617288BC74E0059CB6A /* View */,
+			);
+			path = "Task List";
+			sourceTree = "<group>";
+		};
+		3BC9D614288BC7170059CB6A /* History */ = {
+			isa = PBXGroup;
+			children = (
+				3BC9D616288BC7330059CB6A /* View Model */,
+				3BC9D615288BC7270059CB6A /* View */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		3BC9D615288BC7270059CB6A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3BC9D63A288DA3160059CB6A /* HistoryView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3BC9D616288BC7330059CB6A /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				3BC9D638288DA3070059CB6A /* HistoryViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		3BC9D617288BC74E0059CB6A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3BC9D63E288DA3320059CB6A /* TaskListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3BC9D618288BC7570059CB6A /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				3BC9D63C288DA3230059CB6A /* TaskListViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		3BC9D619288BC75D0059CB6A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3BC9D642288DA3610059CB6A /* TopicListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3BC9D61A288BC7650059CB6A /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				3BC9D640288DA3560059CB6A /* TopicListViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		3BC9D61B288BC8A40059CB6A /* Task Detail */ = {
+			isa = PBXGroup;
+			children = (
+				3BC9D61D288BC8B00059CB6A /* View Model */,
+				3BC9D61C288BC8AB0059CB6A /* View */,
+			);
+			path = "Task Detail";
+			sourceTree = "<group>";
+		};
+		3BC9D61C288BC8AB0059CB6A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3BC9D633288D62B60059CB6A /* TaskDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3BC9D61D288BC8B00059CB6A /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				3BC9D631288D62550059CB6A /* TaskDetailViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		3BC9D630288BE1AD0059CB6A /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				3BC9D636288D637D0059CB6A /* Formatter.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		3BC9D635288D62C50059CB6A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				3BAF3B65288F9253006DB6F7 /* Card.swift */,
+				3BCC6F16288F51EA0009A2A9 /* BodyTextField.swift */,
+				3BCC6F18288F52320009A2A9 /* TitleTextField.swift */,
+				3BCC6F1A288F52700009A2A9 /* BodyTextEditor.swift */,
+				3BCC6F1C288F5DB00009A2A9 /* DeadlineDatePicker.swift */,
+				3BCC6F1E288F6B210009A2A9 /* PickerView.swift */,
+				3BAF3B6A288FA515006DB6F7 /* Footer.swift */,
+				3B72768F2890FAB30046E2ED /* ImagePredictor.swift */,
+				3BC1763E2890EECC003C0453 /* ImagePickerView */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		3BCC6F13288F47180009A2A9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3BCC6F14288F475F0009A2A9 /* View+Formatter.swift */,
+				3B7276912890FC4A0046E2ED /* CGImagePropertyOrientation+UIImageOrientation.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,10 +448,45 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BC9D605288A38900059CB6A /* Persistence.swift in Sources */,
+				3BCC6F19288F52320009A2A9 /* TitleTextField.swift in Sources */,
+				3BC9D63D288DA3230059CB6A /* TaskListViewModel.swift in Sources */,
+				3B53FE4A28920D4C0058838F /* HappyImageClassifier.mlmodel in Sources */,
+				3B7276922890FC4A0046E2ED /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */,
+				3B7276902890FAB30046E2ED /* ImagePredictor.swift in Sources */,
+				3B53FE6428934E480058838F /* Topic+CoreDataClass.swift in Sources */,
+				3BAF3B6B288FA515006DB6F7 /* Footer.swift in Sources */,
+				3BCC6F1F288F6B210009A2A9 /* PickerView.swift in Sources */,
+				3B53FE6528934E480058838F /* DatabaseHelperTopic.swift in Sources */,
+				3BCC6F1D288F5DB00009A2A9 /* DeadlineDatePicker.swift in Sources */,
+				3B53FE5F28934E480058838F /* Activity+CoreDataClass.swift in Sources */,
+				3B53FE4F28930D830058838F /* ChangeCompletionViewModel.swift in Sources */,
+				3B53FE6328934E480058838F /* Task+CoreDataClass.swift in Sources */,
+				3BC9D634288D62B60059CB6A /* TaskDetailView.swift in Sources */,
+				3BC9D641288DA3560059CB6A /* TopicListViewModel.swift in Sources */,
+				3B4CF5582891F5B7001D937C /* Persistence.swift in Sources */,
+				3BCC6F17288F51EA0009A2A9 /* BodyTextField.swift in Sources */,
+				3BC176402890EF03003C0453 /* ImagePickerCoordinator.swift in Sources */,
 				3BC9D5FE288A388F0059CB6A /* ContentView.swift in Sources */,
-				3BC9D608288A38900059CB6A /* Progressia.xcdatamodeld in Sources */,
+				3BCC6F15288F475F0009A2A9 /* View+Formatter.swift in Sources */,
+				3B4CF5622891F5B7001D937C /* Progressia.xcdatamodeld in Sources */,
+				3B53FE6628934E480058838F /* Topic+CoreDataProperties.swift in Sources */,
+				3B53FE6228934E480058838F /* Task+CoreDataProperties.swift in Sources */,
+				3B4CF5632891F5B7001D937C /* DatabaseHelper+Constants.swift in Sources */,
+				3B53FE5128930D910058838F /* ChangeCompletionView.swift in Sources */,
+				3BC9D643288DA3610059CB6A /* TopicListView.swift in Sources */,
+				3BCC6F1B288F52700009A2A9 /* BodyTextEditor.swift in Sources */,
+				3BC9D63F288DA3320059CB6A /* TaskListView.swift in Sources */,
+				3BC9D637288D637D0059CB6A /* Formatter.swift in Sources */,
+				3BC9D63B288DA3160059CB6A /* HistoryView.swift in Sources */,
+				3B53FE6128934E480058838F /* DatabaseHelperTask.swift in Sources */,
+				3BC1763D2890E9DB003C0453 /* ImagePickerView.swift in Sources */,
+				3B4CF5642891F5B7001D937C /* DatabaseHelper.swift in Sources */,
+				3BC9D632288D62550059CB6A /* TaskDetailViewModel.swift in Sources */,
+				3BC9D639288DA3070059CB6A /* HistoryViewModel.swift in Sources */,
+				3B53FE6028934E480058838F /* Activity+CoreDataProperties.swift in Sources */,
+				3B53FE5E28934E480058838F /* DatabaseHelperActivity.swift in Sources */,
 				3BC9D5FC288A388F0059CB6A /* ProgressiaApp.swift in Sources */,
+				3BAF3B66288F9253006DB6F7 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,11 +618,13 @@
 				DEVELOPMENT_TEAM = YFHWVSQVD7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Allow camera access to be able to detect your mood.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,11 +649,13 @@
 				DEVELOPMENT_TEAM = YFHWVSQVD7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Allow camera access to be able to detect your mood.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -349,12 +693,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		3BC9D606288A38900059CB6A /* Progressia.xcdatamodeld */ = {
+		3B4CF5532891F5B7001D937C /* Progressia.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				3BC9D607288A38900059CB6A /* Progressia.xcdatamodel */,
+				3B4CF5542891F5B7001D937C /* Progressia.xcdatamodel */,
 			);
-			currentVersion = 3BC9D607288A38900059CB6A /* Progressia.xcdatamodel */;
+			currentVersion = 3B4CF5542891F5B7001D937C /* Progressia.xcdatamodel */;
 			path = Progressia.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
